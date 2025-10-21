@@ -1,11 +1,11 @@
 # 🕵️‍♂️ MS17 - OSINT Intelligence Framework
 
-**MS17** è un tool OSINT (Open Source Intelligence) avanzato scritto in **Python 3**, progettato per raccogliere, analizzare e correlare informazioni da fonti pubbliche su **domini, IP, email e username**.  
-Combina diverse API (VirusTotal, Shodan, AbuseIPDB, HaveIBeenPwned, Hunter.io) e analisi locali (DNS, WHOIS, SSL, Social Media).
+**MS17** è un tool OSINT (Open Source Intelligence) avanzato scritto in **Python**, progettato per raccogliere, analizzare e correlare informazioni da fonti pubbliche su **domini, IP, email e username**.  
+Combina diverse API (VirusTotal, Shodan, AbuseIPDB, HaveIBeenPwned, Hunter.io, ipqualityscore.com) e analisi locali (DNS, WHOIS, SSL, Social Media).
 
 ---
 
-![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![Python](https://img.shields.io/badge/Python-blue?logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows%20%7C%20macOS-lightgrey)
 ![Category](https://img.shields.io/badge/category-OSINT-orange)
@@ -37,7 +37,8 @@ Combina diverse API (VirusTotal, Shodan, AbuseIPDB, HaveIBeenPwned, Hunter.io) e
   - Shodan  
   - AbuseIPDB  
   - HaveIBeenPwned  
-  - Hunter.io  
+  - Hunter.io
+  - ipqualityscore.com  
 
 ---
 
@@ -65,7 +66,7 @@ Crea un file `config.json` nella directory principale del progetto, con questo f
 Esegui il programma da terminale:
 
 ```bash
-python3 MS17OSINT.py [opzioni]
+python MS17OSINT.py [opzioni]
 ```
 
 ### Opzioni disponibili:
@@ -88,27 +89,27 @@ python3 MS17OSINT.py [opzioni]
 
 ### Analisi di un dominio
 ```bash
-python3 MS17OSINT.py -d example.com
+python MS17OSINT.py -d example.com
 ```
 
 ### Analisi di un IP
 ```bash
-python3 MS17OSINT.py -i 8.8.8.8
+python MS17OSINT.py -i 8.8.8.8
 ```
 
 ### Analisi email
 ```bash
-python3 MS17OSINT.py -e test@example.com
+python MS17OSINT.py -e test@example.com
 ```
 
 ### Ricerca di un username
 ```bash
-python3 MS17OSINT.py -u johnsmith
+python MS17OSINT.py -u johnsmith
 ```
 
 ### Analisi completa di un dominio con tutte le API e report in TXT
 ```bash
-python3 MS17OSINT.py -d example.com --all -f txt
+python MS17OSINT.py -d example.com --all -f txt
 ```
 
 ---
@@ -140,7 +141,7 @@ Esempio di riepilogo a schermo:
 
 ```bash
 git clone https://github.com/MS17YT/OSINT-TOOL
-cd MS17
+cd OSINT-TOOL
 pip install -r requirements.txt
 python3 MS17OSINT.py -h
 ```
@@ -168,7 +169,7 @@ Gestione retry, timeouts e error handling avanzato.
 ## 🪪 Crediti
 
 - Sviluppato da **[Il Creatore del progetto MS17]**
-- Versione corrente: **2.2**
+- Versione corrente: **1.0**
 - Licenza: **MIT License**
 
 ---
