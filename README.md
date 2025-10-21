@@ -47,22 +47,32 @@ Prerequisiti
 
     API keys (opzionali ma consigliate)
 
-bash
+🚀 Installazione
+Clona il Repository
 
-# Clona il repository
-git clone https://github.com/tuo-username/osint-pro.git
-cd osint-pro
+git clone https://github.com/tuo-username/OSINT-TOOL.git
+cd OSINT-TOOL
 
-# Installa le dipendenze
+Installa le Dipendenze
+
 pip install -r requirements.txt
 
 File delle Dipendenze (requirements.txt)
-text
 
 requests>=2.28.0
 dnspython>=2.2.0
 python-whois>=0.8.0
 argparse>=1.4.0
+
+1. Configurazione API Keys
+
+{
+  "virustotal_api_key": "tua_chiave_virustotal",      <---------- Sostituisi con le API key
+  "shodan_api_key": "tua_chiave_shodan", 
+  "abuseipdb_api_key": "tua_chiave_abuseipdb",
+  "hibp_api_key": "tua_chiave_hibp",
+  "hunter_api_key": "tua_chiave_hunter"
+}
 
 ⚙️ Configurazione
 1. Configurazione API Keys
@@ -72,8 +82,26 @@ json
 
 {
   "virustotal_api_key": "tua_chiave_virustotal",
-  "shodan_api_key": "tua_chiave_shodan",
+  "shodan_api_key": "tua_chiave_shodan", 
   "abuseipdb_api_key": "tua_chiave_abuseipdb",
   "hibp_api_key": "tua_chiave_hibp",
   "hunter_api_key": "tua_chiave_hunter"
 }
+
+💡 Utilizzo Rapido
+Analisi Dominio
+bash
+
+python Osint.py -d example.com
+
+Ricerca Username
+bash
+
+python Osint.py -u username
+
+Analisi Completa
+bash
+
+python Osint.py -d example.com --all -v
+
+
