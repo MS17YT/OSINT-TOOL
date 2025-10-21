@@ -1,0 +1,8 @@
+{
+  "virustotal_api_key": "INSERISCI_LA_TUA_API_KEY_VIRUSTOTAL",
+  "shodan_api_key": "INSERISCI_LA_TUA_API_KEY_SHODAN",
+  "abuseipdb_api_key": "INSERISCI_LA_TUA_API_KEY_ABUSEIPDB",
+  "hibp_api_key": "INSERISCI_LA_TUA_API_KEY_HIBP",
+  "hunter_api_key": "INSERISCI_LA_TUA_API_KEY_HUNTER",
+  "ipqualityscore_api_key": "INSERISCI_LA_TUA_API_KEY_IPQUALITYSCORE"
+}
