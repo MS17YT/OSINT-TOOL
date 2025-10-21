@@ -1,7 +1,7 @@
 # 🕵️‍♂️ MS17 OSINT TOOL v2.3
 ### Advanced Open Source Intelligence Framework con Geolocalizzazione GSM
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
+![Python](https://img.shields.io/badge/Python-blue?logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Version](https://img.shields.io/badge/Version-2.3-orange.svg)
 
@@ -64,35 +64,35 @@ Puoi ottenere le chiavi API dai rispettivi servizi ufficiali.
 
 ### Analisi di un dominio
 ```bash
-python3 MS17OSINT.py -d example.com
+python MS17OSINT.py -d example.com
 ```
 
 ### Analisi di un indirizzo IP
 ```bash
-python3 MS17OSINT.py -i 8.8.8.8
+python MS17OSINT.py -i 8.8.8.8
 ```
 
 ### Analisi di un indirizzo email
 ```bash
-python3 MS17OSINT.py -e test@example.com
+python MS17OSINT.py -e test@example.com
 ```
 
 ### Ricerca di un username sui social
 ```bash
-python3 MS17OSINT.py -u johndoe
+python MS17OSINT.py -u johndoe
 ```
 
 ### Geolocalizzazione GSM (celle)
 Puoi fornire i dati GSM in vari formati:
 
 ```bash
-python3 MS17OSINT.py -g "mcc:222,mnc:1,lac:1234,cid:5678"
+python MS17OSINT.py -g "mcc:222,mnc:1,lac:1234,cid:5678"
 ```
 
 oppure:
 
 ```bash
-python3 MS17OSINT.py --mcc 222 --mnc 1 --lac 1234 --cid 5678
+python MS17OSINT.py --mcc 222 --mnc 1 --lac 1234 --cid 5678
 ```
 
 Esempio di output:
@@ -111,7 +111,7 @@ Accuratezza: 350 metri
 Puoi scegliere il formato del report (`json`, `csv`, `txt`):
 
 ```bash
-python3 MS17OSINT.py -d example.com -f csv -o risultato
+python MS17OSINT.py -d example.com -f csv -o risultato
 ```
 
 Il file verrà salvato come:
@@ -126,7 +126,7 @@ risultato.csv
 Esegui un’analisi completa con un solo comando:
 
 ```bash
-python3 MS17OSINT.py --all -d example.com
+python MS17OSINT.py --all -d example.com
 ```
 
 Il tool:
@@ -276,16 +276,16 @@ L’autore **non si assume alcuna responsabilità** per l’uso improprio o ille
 
 ```bash
 # 1) Analisi dominio e salvataggio in JSON
-python3 MS17OSINT.py -d example.com -f json -o report_example
+python MS17OSINT.py -d example.com -f json -o report_example
 
 # 2) Analisi IP con Shodan (se chiave presente)
-python3 MS17OSINT.py -i 1.2.3.4
+python MS17OSINT.py -i 1.2.3.4
 
 # 3) Geolocalizzazione GSM
-python3 MS17OSINT.py -g "222-1-1234-5678"
+python MS17OSINT.py -g "222-1-1234-5678"
 
 # 4) Analisi completa (domain -> ip -> email dal whois)
-python3 MS17OSINT.py --all -d example.com
+python MS17OSINT.py --all -d example.com
 ```
 
 ---
@@ -319,7 +319,7 @@ python3 MS17OSINT.py --all -d example.com
 
 ## 📜 Licenza
 
-Questo progetto è rilasciato sotto licenza **MIT**. Inserisci qui il file `LICENSE` se vuoi includere il testo completo.
+Questo progetto è rilasciato sotto licenza **MIT**.
 
 ---
 
