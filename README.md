@@ -143,7 +143,7 @@ Esempio di riepilogo a schermo:
 git clone https://github.com/MS17YT/OSINT-TOOL
 cd OSINT-TOOL
 pip install -r requirements.txt
-python3 MS17OSINT.py -h
+python MS17OSINT.py -h
 ```
 
 Crea il file `config.json` con le tue API key e inizia l’analisi.
