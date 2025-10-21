@@ -168,7 +168,7 @@ Gestione retry, timeouts e error handling avanzato.
 
 ## 🪪 Crediti
 
-- Sviluppato da **[Il Creatore del progetto MS17]**
+- Sviluppato da **[MS17]**
 - Versione corrente: **1.0**
 - Licenza: **MIT License**
 
