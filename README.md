@@ -9,7 +9,7 @@
 
 ## 📖 Descrizione
 
-**MS17 OSINT TOOL** è un framework avanzato di **Open Source Intelligence (OSINT)** scritto in **Python 3**, progettato per analizzare domini, indirizzi IP, email, username sui social e, in aggiunta, eseguire **geolocalizzazione GSM tramite celle mobili** (tramite l’API di UnwiredLabs).
+**MS17 OSINT TOOL** è un framework avanzato di **Open Source Intelligence (OSINT)** scritto in **Python**, progettato per analizzare domini, indirizzi IP, email, username sui social e, in aggiunta, eseguire **geolocalizzazione GSM tramite celle mobili** (tramite l’API di UnwiredLabs).
 
 Il tool consente di raccogliere informazioni provenienti da fonti pubbliche e API esterne (VirusTotal, Shodan, AbuseIPDB, HIBP, Hunter.io, UnwiredLabs) in modo automatico, producendo report dettagliati in **JSON**, **CSV** o **TXT**.
 
