@@ -27,7 +27,7 @@ Combina diverse API (VirusTotal, Shodan, AbuseIPDB, HaveIBeenPwned, Hunter.io, i
 
 ## 🧰 Requisiti
 
-- Python ≥ **3.8**
+- Python 
 - Librerie Python necessarie:
   ```bash
   pip install requests dnspython python-whois
