@@ -31,8 +31,8 @@ Installare le dipendenze principali (esempio pip):
 ```bash
 pip install -r requirements.txt
 ```
+`requirements.txt`:
 
-Esempio di `requirements.txt` (da creare se non presente):
 ```
 requests
 python-whois
