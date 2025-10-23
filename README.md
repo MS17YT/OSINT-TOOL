@@ -1,7 +1,6 @@
-# MS17 OSINT ULTRA PRO (README)
+# MS17 OSINT ULTRA PRO
 
 **Versione**: 3.0  
-**File analizzato**: `OSINT.py`
 
 ---
 
@@ -150,10 +149,3 @@ python OSINT.py -g "222,10,12345,67890"
 
 ---
 
-## Licenza
-Aggiungi qui la licenza appropriata (es. MIT) prima di pubblicare il repository.
-
----
-
-## Riferimenti
-Il README è stato creato analizzando il file sorgente `OSINT.py` presente nel repository. Per dettagli implementativi e funzioni specifiche, vedi direttamente il file `OSINT.py`.
